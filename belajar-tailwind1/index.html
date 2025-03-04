@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config={
+            theme: {
+                extend: {
+                    spacing: {
+                        '13' : '3.25rem'
+                    }
+                }
+            }
+        }
+    </script>
+    <title>Belajar TailwindCSS</title>
+    <style type="text/tailwindcss">
+
+    </style>
+</head>
+<body>
+    <h1 class="text-6xl font-bold text-center my-10`">Mari Belajar TailwindCSS</h1>
+
+    <section class="mb-10 bg-indigo-200">
+        <h2 class="text-3xl text-center">Spacing</h2>
+        <div class="m-13 bg-yellow-200">Margin</div>
+        <div class="py-8  bg-yellow-200">Padding</div>
+    </section>
+    <section class="mb-10 bg-green-200">
+        <h2 class="text-3xl text-center bg-gradient-to-r from-slate-400 to-purple-700">Sizing</h2>
+        <div class="w-32 h-32 bg-blue-200">Kotak 1</div>
+    </section>
+    <section class="font-mono max-w-3xl mx-auto">
+        <h2 class="mb-4 text-4xl font-bold">Aku suka kucing karena lucu</h2>
+        <div class="mb-4 text-2xl text-lg text-gray-500">By <a href="#"class="text-gray-700">Ismah Irdhiyah</a>, 6 Desember 2024</div>
+        <p class="mb-4">
+            Kucing (Felis catus) adalah <a href="#" class="underline font-semibold text-blue-600">hewan mamalia</a> karnivora kecil yang sering dipelihara sebagai hewan peliharaan. Kucing memiliki tubuh yang lincah, ekor panjang untuk menjaga keseimbangan, serta cakar yang tajam dan dapat ditarik masuk.
+        </p>
+        <blockquote>
+            <p class="mb-4 italic font-thin">
+                Hewan ini dikenal dengan mata tajam yang mampu melihat dalam cahaya redup, telinga yang peka terhadap suara, serta kumis yang membantu mereka mendeteksi lingkungan sekitar. Kucing memiliki berbagai pola dan warna bulu, seperti putih, hitam, abu-abu, oranye, atau campuran dari beberapa warna.
+            </p>
+        </blockquote>
+        <p class="mb-4">
+            Hewan ini dikenal dengan mata tajam yang mampu melihat dalam cahaya redup, telinga yang peka terhadap suara, serta kumis yang membantu mereka mendeteksi lingkungan sekitar. Kucing memiliki berbagai pola dan warna bulu, seperti putih, hitam, abu-abu, oranye, atau campuran dari beberapa warna.
+        </p>
+    </section>
+    <div class="max-w xl h-96 bg-[#bada55] mx-auto mt-[42px] overflow-y-scroll bg-scroll" 
+    style="background-image: url('https://picsum.photos/id/237/1000/600')">
+    <p class="p-5 text-2xl">
+        Kucing (Felis catus) adalah hewan mamalia karnivora kecil yang sering dipelihara sebagai hewan peliharaan. Kucing memiliki tubuh yang lincah, ekor panjang untuk menjaga keseimbangan, serta cakar yang tajam dan dapat ditarik masuk.
+        Hewan ini dikenal dengan mata tajam yang mampu melihat dalam cahaya redup, telinga yang peka terhadap suara, serta kumis yang membantu mereka mendeteksi lingkungan sekitar. Kucing memiliki berbagai pola dan warna bulu, seperti putih, hitam, abu-abu, oranye, atau campuran dari beberapa warna.
+    </p>
+    </div>
+
+    <div class="mt-32 max-w-xl mx-auto h-96 bg-slate-300 
+    bg-cover rounded-2xl border-x-8, border-slate-400 shadow-2xl shadow-blue-600 opacity-75 filter: grayscale(50%) blur(2px) brightness(80%);" style="background-image: url(image/1.jpeg);">
+
+    </div>
+    <div class="mb-96"></div>
+</body>
+</html>
